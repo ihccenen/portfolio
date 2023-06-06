@@ -1,0 +1,173 @@
+.footer {
+  font-size: 1.65rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  margin-top: 12.2rem;
+  padding-top: 1.29rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.info {
+  display: grid;
+  gap: 0.55rem;
+  padding-inline: 1.4rem;
+}
+
+.h2 {
+  font-size: 2.8rem;
+  font-size: 3.3rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.container p {
+  line-height: 1.15;
+}
+
+.address,
+.contact {
+  font-size: 1.24rem;
+  font-weight: 300;
+}
+
+.address {
+  margin-top: 1.8rem;
+}
+
+.contact {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 1.9rem;
+}
+
+.links {
+  margin-top: 1.5rem;
+  margin-inline: auto;
+}
+
+.links > a {
+  font-size: 3.2rem;
+  display: flex;
+  color: var(--black);
+}
+
+.img-wrapper {
+  height: 38.5rem;
+}
+
+.img-wrapper img {
+  height: 100%;
+  max-width: auto;
+  object-fit: cover;
+}
+
+@media (min-width: 50rem) {
+  .footer {
+    padding-block: 2.8rem 4.2rem;
+  }
+
+  .container {
+    flex-direction: row;
+    padding-inline: 2rem 2.43rem;
+    gap: 0;
+    align-items: flex-start;
+  }
+
+  .h2 {
+    font-size: 2.35rem;
+    text-align: start;
+  }
+
+  .info {
+    font-size: 1.2rem;
+  }
+
+  .address,
+  .contact {
+    font-size: 1.2rem;
+  }
+
+  .contact p {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .contact svg {
+    font-size: 1.7rem;
+  }
+
+  .links {
+    margin-inline: unset;
+  }
+
+  .links > a {
+    font-size: 2.4rem;
+  }
+
+  .img-wrapper {
+    height: 28rem;
+    max-width: 20rem;
+  }
+}
+
+@media (min-width: 66rem) {
+  .footer {
+    margin-top: 7.5rem;
+    padding-block: 4rem 4.4rem;
+    padding-inline: 1rem;
+  }
+
+  .container {
+    max-width: 74rem;
+    flex: 1 1 0;
+    justify-content: space-between;
+    padding: 0;
+    gap: 1rem;
+  }
+
+  .h2 {
+    font-size: 2.8rem;
+  }
+
+  .info {
+    font-size: 1.4rem;
+    gap: 1.1rem;
+    padding: 0;
+  }
+
+  .info > p {
+    max-width: 24rem;
+  }
+
+  .address,
+  .contact {
+    font-size: 1.4rem;
+    font-weight: 400;
+  }
+
+  .address {
+    margin-top: 1.35rem;
+  }
+
+  .contact {
+    margin-top: 1.55rem;
+    gap: 1.3rem;
+  }
+
+  .img-wrapper {
+    height: 33.4rem;
+    max-width: 43.7rem;
+  }
+
+  .links > a {
+    font-size: 2.6rem;
+  }
+}
