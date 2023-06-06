@@ -192,6 +192,11 @@
 }
 
 @media (min-width: 66rem) {
+  .header-container,
+  .container {
+    padding-inline: 1rem;
+  }
+
   .header-container::before {
     bottom: -3.2rem;
   }
