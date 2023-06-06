@@ -1,12 +1,12 @@
 import Image from 'next/image';
-import { Playfair_Display } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import { FaGithub } from 'react-icons/fa';
 import { RxExternalLink } from 'react-icons/rx';
 import styles from './ProjectCard.module.css';
 
-export const playfairDisplay = Playfair_Display({
+export const monsterrrat = Montserrat({
   subsets: ['latin'],
-  weight: ['400', '600'],
+  weight: ['500', '600'],
 });
 
 export default function ProjectCard({
@@ -43,7 +43,7 @@ export default function ProjectCard({
           />
         ) : (
           <p
-            className={`${styles['no-screenshot']} ${playfairDisplay.className}`}
+            className={`${styles['no-screenshot']} ${monsterrrat.className}`}
             data-testid="no-screenshot"
           >
             No screenshot
@@ -51,7 +51,7 @@ export default function ProjectCard({
         )}
       </div>
       <div className={styles['card-middle']}>
-        <h3 className={`${styles.h3} ${playfairDisplay.className}`}>{name}</h3>
+        <h3 className={`${styles.h3} ${monsterrrat.className}`}>{name}</h3>
         <div className={styles.links}>
           <a
             className={styles.flex}
@@ -67,7 +67,7 @@ export default function ProjectCard({
           )}
         </div>
       </div>
-      <p className={styles.description}>{description}</p>
+      <p className={styles.description}>{description || 'No description.'}</p>
     </div>
   );
 }
