@@ -1,7 +1,9 @@
 :root {
   --white: hsl(0, 0%, 100%);
   --dark-cyan: hsl(192, 91%, 36%);
+  --v-dark-cyan: hsl(192, 96%, 20%);
   --v-dark-gray: hsl(0, 0%, 31%);
+  --black: hsl(0 0% 0%);
   --shadow-black: hsl(0 0% 0% / 35%);
 }
 
