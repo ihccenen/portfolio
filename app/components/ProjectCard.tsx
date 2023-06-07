@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { RxExternalLink } from 'react-icons/rx';
 import styles from './ProjectCard.module.css';
 
-export const monsterrrat = Montserrat({
+const monsterrrat = Montserrat({
   subsets: ['latin'],
   weight: ['500', '600'],
 });

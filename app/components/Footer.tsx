@@ -1,13 +1,13 @@
-import { Playfair_Display } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import { FaGithub } from 'react-icons/fa';
 import { BsTelephone } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
 import Image from 'next/image';
 import styles from './Footer.module.css';
 
-export const playfairDisplay = Playfair_Display({
+const monsterrrat = Montserrat({
   subsets: ['latin'],
-  weight: ['400', '600'],
+  weight: ['500', '600'],
 });
 
 export default function Footer() {
@@ -15,7 +15,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.info}>
-          <h2 className={`${styles.h2} ${playfairDisplay.className}`}>
+          <h2 className={`${styles.h2} ${monsterrrat.className}`}>
             Contact me
           </h2>
           <p>

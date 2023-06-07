@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import { Playfair_Display } from 'next/font/google';
+import { Montserrat } from 'next/font/google';
 import { FaGithub } from 'react-icons/fa';
 import styles from './page.module.css';
 import ProjectCard from './components/ProjectCard';
 import projects from '../projects/projects.json';
 
-export const playfairDisplay = Playfair_Display({
+const monsterrrat = Montserrat({
   subsets: ['latin'],
-  weight: ['400', '600'],
+  weight: ['400', '500', '600'],
 });
 
 const { projectList } = projects;
@@ -27,13 +27,13 @@ export default function Home() {
                 quality={100}
                 alt=""
               />
-              <h1 className={`${styles.h1} ${playfairDisplay.className}`}>
+              <h1 className={`${styles.h1} ${monsterrrat.className}`}>
                 ihccenen
               </h1>
             </div>
           </div>
           <div className={styles['about-me']}>
-            <h2 className={`${styles.h2} ${playfairDisplay.className}`}>
+            <h2 className={`${styles.h2} ${monsterrrat.className}`}>
               About me
             </h2>
             <p className={styles.p}>
@@ -58,9 +58,7 @@ export default function Home() {
       </div>
       <div className={styles.container}>
         <main className={styles.main}>
-          <h2 className={`${styles.h2} ${playfairDisplay.className}`}>
-            My work
-          </h2>
+          <h2 className={`${styles.h2} ${monsterrrat.className}`}>My work</h2>
           <div className={styles['project-card-wrapper']}>
             {projectList.map((project) => (
               <ProjectCard key={project.repositoryURL} project={project} />
