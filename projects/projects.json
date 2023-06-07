@@ -1,0 +1,81 @@
+{
+  "projectList": [
+    {
+      "name": "E-commerce Product Page",
+      "description": "Frontend Mentor Challenge using TypeScript and Next.js.",
+      "screenshot": "/screenshot/ecommerce-product-page.png",
+      "repositoryURL": "https://github.com/ihccenen/ecommerce-product-page",
+      "liveURL": "https://endearing-fenglisu-811e8a.netlify.app/"
+    },
+    {
+      "name": "Static Job Listings",
+      "description": "Frontend Mentor Challenge using TypeScript and Next.js.",
+      "screenshot": "/screenshot/static-job-listings.png",
+      "repositoryURL": "https://github.com/ihccenen/static-job-listings",
+      "liveURL": "https://bright-cannoli-3443b9.netlify.app/"
+    },
+    {
+      "name": "Advice Generator App",
+      "description": "Frontend Mentor Challenge using TypeScript and Next.js.",
+      "screenshot": "/screenshot/advice-generator-app.png",
+      "repositoryURL": "https://github.com/ihccenen/advice-generator-app",
+      "liveURL": "https://inquisitive-sorbet-bef181.netlify.app/"
+    },
+    {
+      "name": "Notifications Page",
+      "description": "Frontend Mentor Challenge using TypeScript and Next.js.",
+      "screenshot": "/screenshot/notifications-page.png",
+      "repositoryURL": "https://github.com/ihccenen/notifications-page",
+      "liveURL": "https://nimble-muffin-db1b45.netlify.app/"
+    },
+    {
+      "name": "Sunnyside Agency Landing Page",
+      "description": "Frontend Mentor Challenge using TypeScript and Next.js.",
+      "screenshot": "/screenshot/sunnyside-agency-landing-page.png",
+      "repositoryURL": "https://github.com/ihccenen/sunnyside-agency-landing-page",
+      "liveURL": "https://amazing-basbousa-d8473a.netlify.app"
+    },
+    {
+      "name": "Intro Section With Dropdown Navigation",
+      "description": "Frontend Mentor Challenge using TypeScript and Next.js.",
+      "screenshot": "/screenshot/intro-section-with-dropdown-navigation.png",
+      "repositoryURL": "https://github.com/ihccenen/intro-section-with-dropdown-navigation",
+      "liveURL": "https://clinquant-custard-7c6e90.netlify.app/"
+    },
+    {
+      "name": "Where Is Waldo",
+      "description": "Project from The Odin Project using TypeScript and React.",
+      "screenshot": "/screenshot/where-is-waldo.png",
+      "repositoryURL": "https://github.com/ihccenen/where-is-waldo",
+      "liveURL": "https://whereiswaldo-3de54.web.app/"
+    },
+    {
+      "name": "Shopping Cart",
+      "description": "Project from The Odin Project using TypeScript and React.",
+      "screenshot": "/screenshot/shopping-cart.png",
+      "repositoryURL": "https://github.com/ihccenen/shopping-cart",
+      "liveURL": "https://ihccenen.github.io/shopping-cart/"
+    },
+    {
+      "name": "Memory Game",
+      "description": "Project from The Odin Project using JavaScript and React.",
+      "screenshot": "/screenshot/memory-card.png",
+      "repositoryURL": "https://github.com/ihccenen/memory-card",
+      "liveURL": "https://ihccenen.github.io/memory-card/"
+    },
+    {
+      "name": "CV Project",
+      "description": "Project from The Odin Project using JavaScript and React.",
+      "screenshot": "/screenshot/cv-project.png",
+      "repositoryURL": "https://github.com/ihccenen/cv-project",
+      "liveURL": "https://ihccenen.github.io/cv-project/"
+    },
+    {
+      "name": "Battleship",
+      "description": "Project from The Odin Project using JavaScript.",
+      "screenshot": "/screenshot/battleship.png",
+      "repositoryURL": "https://github.com/ihccenen/battleship",
+      "liveURL": "https://ihccenen.github.io/battleship/"
+    }
+  ]
+}

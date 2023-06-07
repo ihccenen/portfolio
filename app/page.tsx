@@ -2,11 +2,15 @@ import Image from 'next/image';
 import { Playfair_Display } from 'next/font/google';
 import { FaGithub } from 'react-icons/fa';
 import styles from './page.module.css';
+import ProjectCard from './components/ProjectCard';
+import projects from '../projects/projects.json';
 
-const playfairDisplay = Playfair_Display({
+export const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
   weight: ['400', '600'],
 });
+
+const { projectList } = projects;
 
 export default function Home() {
   return (
@@ -57,7 +61,11 @@ export default function Home() {
           <h2 className={`${styles.h2} ${playfairDisplay.className}`}>
             My work
           </h2>
-          <div className={styles['project-card-wrapper']} />
+          <div className={styles['project-card-wrapper']}>
+            {projectList.map((project) => (
+              <ProjectCard key={project.repositoryURL} project={project} />
+            ))}
+          </div>
         </main>
       </div>
     </>
